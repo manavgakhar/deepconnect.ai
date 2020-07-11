@@ -1621,8 +1621,3 @@ footer p {
 .blog-details-post-wrapper .post-comment form button:hover {
   background:#fff;
 }
-
-/* this for button margin settings in about us section */
-.btn-margin{
-  margin-top: 20px;
-}
