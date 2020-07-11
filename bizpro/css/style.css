@@ -211,8 +211,8 @@ animation-delay: .8s;
       -ms-transition: all .3s ease-in-out;
        -o-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
- }
-.tran4s,#service-section .single-service-content p,#project-section .project-gallery .single-img .opacity ul,
+ }                                                                      /*changes for future page*/
+.tran4s,#service-section .single-service-content p,#future-section .single-service-content p,#project-section .project-gallery .single-img .opacity ul,
 #project-section .project-gallery .single-img .opacity h6 a {
   -webkit-transition: all .4s ease-in-out;
      -moz-transition: all .4s ease-in-out;
@@ -254,6 +254,8 @@ animation-delay: .8s;
 .theme-main-menu .navbar-nav>li>a:hover,#about-us .single-about-content:hover h5 a,
 #service-section .single-service-content:hover .icon-heading .icon,
 #service-section .single-service-content:hover .icon-heading h6 a,
+#future-section .single-service-content:hover .icon-heading .icon,    /*changes for future page*/
+#future-section .single-service-content:hover .icon-heading h6 a,
 #pricing-section .single-price-table a:hover,#blog-section .single-news-item .img a,
 #blog-section .single-news-item:hover .post p a,#blog-section .single-news-item .post h6:hover a,
 #contact-section .contact-address-content .left-side ul li:hover .icon,
@@ -274,8 +276,8 @@ animation-delay: .8s;
 .blog-details-post-wrapper .comment-area .single-comment .comment button:hover {
   background: #2fd035;
 }
-.banner .project-button,#about-us .icon,#about-us .single-about-content a.more,
-#service-section .single-service-content:hover,#project-section .project-menu ul li.active,
+.banner .project-button,#about-us .icon,#about-us .single-about-content a.more,   /* changes for future page */
+#service-section .single-service-content:hover,#future-section .single-service-content:hover,#project-section .project-menu ul li.active,
 #project-section .project-menu ul li:hover,.page-middle-banner .opacity a,
 #team-section .team-member-wrapper .single-team-member .img .opacity h4,#pricing-section .single-price-table a,
 #our-client .owl-theme .owl-dots .owl-dot.active span, #our-client .owl-theme .owl-dots .owl-dot:hover span,
@@ -531,6 +533,78 @@ animation-delay: .8s;
           transform: translate3D(0,0,0);
 }
 /***
+
+/*** 
+
+====================================================================
+  Future section
+====================================================================
+
+ ***/
+ #future-section {
+  background: #323232;
+  padding-bottom: 80px;
+}
+#future-section .theme-title h2,
+#future-section .theme-title p {
+  color:#fff;
+}
+#future-section .row {
+  margin: 50px 0 0 0;
+}
+#future-section .row [class*="col-"] {
+  padding-top: 25px;
+}
+#future-section .single-service-content {
+  border:1px solid #808489;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 118px 23px 65px 23px;
+  overflow: hidden;
+}
+#future-section .single-service-content p {
+  -webkit-transition-delay: 0.3s; /* Safari */
+  transition-delay: 0.3s;
+  opacity: 0;
+  -webkit-transform: translate3D(0,200px,0);
+     -moz-transform: translate3D(0,200px,0);
+      -ms-transform: translate3D(0,200px,0);
+       -o-transform: translate3D(0,200px,0);
+          transform: translate3D(0,200px,0);
+}
+#future-section .single-service-content .icon-heading {
+  position: absolute;
+  width: 100%;
+  left:0;
+  right: 0;
+  top:120px;
+}
+#future-section .single-service-content .icon-heading .icon {
+  font-size: 48px;
+  color:#808489;
+  width: 80px;
+  margin: 0 auto;
+  background: #323232;
+}
+#future-section .single-service-content .icon-heading a {
+  color:#808489;
+  text-transform: capitalize;
+  margin-top: 33px;
+}
+#future-section .single-service-content:hover .icon-heading {
+  top:-10px;
+}
+#future-section .single-service-content:hover p {
+  opacity: 1;
+  color: #fff;
+  -webkit-transform: translate3D(0,0,0);
+     -moz-transform: translate3D(0,0,0);
+      -ms-transform: translate3D(0,0,0);
+       -o-transform: translate3D(0,0,0);
+          transform: translate3D(0,0,0);
+}
+/*** 
+
 
 ====================================================================
   Project section
