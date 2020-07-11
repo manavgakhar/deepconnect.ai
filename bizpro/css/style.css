@@ -534,7 +534,7 @@ animation-delay: .8s;
 }
 /***
 
-/*** 
+/***
 
 ====================================================================
   Future section
@@ -603,7 +603,7 @@ animation-delay: .8s;
        -o-transform: translate3D(0,0,0);
           transform: translate3D(0,0,0);
 }
-/*** 
+/***
 
 
 ====================================================================
@@ -1694,4 +1694,10 @@ footer p {
 }
 .blog-details-post-wrapper .post-comment form button:hover {
   background:#fff;
+}
+/*
+for button margin settings in about us secition
+*/
+.btn-margin{
+  margin-top: 20px;
 }
